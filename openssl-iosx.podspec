@@ -8,7 +8,6 @@ Pod::Spec.new do |s|
     s.social_media_url = "https://www.linkedin.com/in/alexander-pototskiy"
     s.osx.deployment_target = "11.0"
     s.ios.deployment_target = "12.0"
-    s.visionos.deployment_target = "1.0"
     s.osx.pod_target_xcconfig = { 'ONLY_ACTIVE_ARCH' => 'YES' }
     s.ios.pod_target_xcconfig = { 'ONLY_ACTIVE_ARCH' => 'YES' }
     s.visionos.pod_target_xcconfig = { 'ONLY_ACTIVE_ARCH' => 'YES' }
