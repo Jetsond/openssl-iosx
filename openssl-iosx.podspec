@@ -10,7 +10,6 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = "12.0"
     s.osx.pod_target_xcconfig = { 'ONLY_ACTIVE_ARCH' => 'YES' }
     s.ios.pod_target_xcconfig = { 'ONLY_ACTIVE_ARCH' => 'YES' }
-    s.visionos.pod_target_xcconfig = { 'ONLY_ACTIVE_ARCH' => 'YES' }
     s.static_framework = true
     s.prepare_command = "sh scripts/build.sh"
     s.source       = { :git => "https://github.com/apotocki/openssl-iosx.git", :tag => "#{s.version}" }
