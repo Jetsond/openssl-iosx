@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-    s.name         = "openssl-iosx"
+    s.name         = "openssl-iosx-sy"
     s.version      = "3.2.1.1"
     s.summary      = "OpenSSL libraries for macOS, iOS, and visionOS, including both arm64 and x86_64 builds for macOS, Mac Catalyst, iOS Simulator, and visionOS Simulator."
     s.homepage     = "https://github.com/apotocki/openssl-iosx"
